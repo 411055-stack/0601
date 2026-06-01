@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>介紹網頁</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">我的介紹網頁</h1>
+      <nav>
+        <a href="#about">關於</a>
+        <a href="#services">服務</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>你好，我是 張三</h2>
+        <p>我是一位網頁設計師 / 開發者，專注於製作清晰且響應式的網站。</p>
+        <p><a class="btn" href="#contact">聯絡我</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>關於我</h3>
+      <p>我有多年網站開發經驗，熟悉 HTML、CSS、JavaScript，以及前後端整合。喜歡簡潔的設計與良好的使用者體驗。</p>
+    </section>
+
+    <section id="services" class="container section">
+      <h3>服務項目</h3>
+      <ul class="features">
+        <li>響應式網頁設計</li>
+        <li>前端互動 (JavaScript)</li>
+        <li>網站效能優化</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>聯絡方式</h3>
+      <p>電子郵件: <a href="mailto:example@example.com">example@example.com</a></p>
+      <p>或使用下方按鈕來複製我的電子郵件地址。</p>
+      <p><button id="copyEmail">複製 Email</button></p>
+      <p id="copyMsg" class="muted" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 張三 — 介紹網頁範例</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
